@@ -1,0 +1,55 @@
+//-----------------------------------------------------------------------
+// First personal solution.
+// Using HashSet.
+// The time complexity is O(n).
+// The space complexity is O(n).
+
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        
+        for (int i = 0; i < nums.length; i++) {
+            set.add(nums[i]);
+        }
+        
+        List<Integer> result = new ArrayList<>();
+        
+        for (int i = 1; i < nums.length + 1; i++) {
+            if (!set.contains(i)) {
+                result.add(i);
+            }
+        }
+        
+        return result;
+    }
+}
+
+
+//------------------------------------------------------------------
+// A good solution is from leetcode
+
+// The time complexity is O(n)
+// The space complexity is O(n)
+
+// it is similar to sort with limited range. And we can use array to help solve such problems.
+
+
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        boolean[] table = new boolean[nums.length];
+        
+        for (int i = 0; i < nums.length; i++) {
+            table[nums[i] - 1] = true;
+        }
+        
+        List<Integer> result = new ArrayList<>();
+        
+        for (int i = 0; i < nums.length; i++) {
+            if (table[i] == false) {
+                result.add(i + 1);
+            }
+        }
+        
+        return result;
+    }
+}
