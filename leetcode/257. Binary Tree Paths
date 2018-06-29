@@ -1,0 +1,77 @@
+//------------------------------------------------------------------------
+
+// An approach use public approach.
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public List<String> result = new ArrayList<>();
+    
+    public List<String> binaryTreePaths(TreeNode root) {
+        if (root != null) {
+            binaryTreePaths("", root);
+        }
+        return result;
+    }
+    
+    private void binaryTreePaths(String path, TreeNode root) {
+        
+        if (root.left == null && root.right == null) {
+            path += root.val;
+            result.add(path);
+        }
+        
+        if (root.left != null) {
+            binaryTreePaths(path + root.val +"->", root.left);
+        }
+        
+        if (root.right != null) {
+            binaryTreePaths(path + root.val +"->", root.right);
+        }  
+    } 
+}
+
+//-------------------------------------------------------------------------------
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+ 
+ 
+// An approach without using public field.
+class Solution {
+    public List<String> binaryTreePaths(TreeNode root) {
+        List<String> result = new ArrayList<>();
+        if (root != null) {
+            binaryTreePaths("", root, result);
+        }
+        return result;
+    }
+    
+    private void binaryTreePaths(String path, TreeNode root, List<String> result) {
+        
+        if (root.left == null && root.right == null) {
+            path += root.val;
+            result.add(path);
+        }
+        
+        if (root.left != null) {
+            binaryTreePaths(path + root.val +"->", root.left, result);
+        }
+        
+        if (root.right != null) {
+            binaryTreePaths(path + root.val +"->", root.right, result);
+        }  
+    } 
+}
