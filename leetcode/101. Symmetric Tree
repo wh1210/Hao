@@ -1,3 +1,6 @@
+//--------------------------------------------------------------------------------------------
+// This is an approach using recursive DFS way.
+// It is a relatively easy way.
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,5 +39,50 @@ class Solution {
         }
         
         return isSymmetric(leftRoot.left, rightRoot.right) && isSymmetric(leftRoot.right, rightRoot.left);
+    }
+}
+
+
+//---------------------------------------------------------------------------
+// It is another approach using BFS.
+// The data structure used is queue. Also called iterative way/solution.
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public boolean isSymmetric(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        q.offer(root);
+        
+        while (!q.isEmpty()) {
+            TreeNode temp1 = q.poll();
+            TreeNode temp2 = q.poll();
+            
+            if (temp1 == null && temp2 == null) {
+                continue;
+            }
+            if (temp1 == null || temp2 == null) {
+                return false;
+            }
+            if (temp1.val != temp2.val) {
+                return false;
+            }
+            
+            q.offer(temp1.right);
+            q.offer(temp2.left);
+            q.offer(temp1.left);
+            q.offer(temp2.right);
+        }
+        
+        return true;
+        
     }
 }
