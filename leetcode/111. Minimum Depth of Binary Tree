@@ -1,3 +1,4 @@
+//-------------------------------------------------------------------------------------
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,6 +8,8 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+ 
+ // This is the initial solution using DFS.
 class Solution {
     public int minDepth(TreeNode root) {
         if (root == null) {
@@ -32,5 +35,49 @@ class Solution {
         int right = minDepth(root.right, depth + 1);
         
         return Math.min(left, right);
+    }
+}
+
+
+// This is another approach using BFS.
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
+//-----------------------------------------------------------------------------------------
+// This is a solution using BFS.
+// A little bit tricky.
+class Solution {
+    public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Queue<TreeNode> q = new LinkedList<>();
+        int depth = 0;
+        q.offer(root);
+        int size = 0;
+        while (!q.isEmpty()) {
+            size = q.size();
+            depth++;
+            for (int i = 0; i < size; i++) {
+                TreeNode temp = q.poll();
+                if (temp.left == null && temp.right == null) {
+                    return depth;
+                }
+                if (temp.left != null) {
+                    q.offer(temp.left);
+                }
+                if (temp.right != null) {
+                    q.offer(temp.right);
+                }
+            }
+        }
+        throw new IllegalArgumentException();
     }
 }
