@@ -1,0 +1,26 @@
+class Solution {
+    public boolean isHappy(int n) {
+        HashSet<Integer> set = new HashSet<>();
+        while (n < Long.MAX_VALUE) {
+            if (n == 1) {
+                return true;
+            }
+            if (set.contains(n)) {
+                return false;
+            } else {
+                set.add(n);
+            }
+            n = getValue(n);     
+        }
+        throw new IllegalArgumentException();
+    }
+    
+    private int getValue(int n) {
+        int ans = 0;
+        while (n != 0) {
+            ans += Math.pow(n%10, 2);
+            n = n / 10;
+        }
+        return ans;
+    }
+}
