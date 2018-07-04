@@ -1,0 +1,57 @@
+// Make them have the same length at first.
+class Solution {
+    public String addBinary(String a, String b) {
+        
+        while (a.length() != b.length()) {
+            if (a.length() > b.length()) {
+                b = "0" + b;
+            } else {
+                a = "0" + a;
+            }
+        }
+        
+        String res = "";
+        int up = 0;
+        for (int i = a.length() - 1; i >= 0; i--) {
+            int tempRes = (int)(a.charAt(i) - '0') + (int)(b.charAt(i) - '0') + up;
+            up = tempRes / 2;
+            res = (tempRes % 2) + res;
+        }
+        
+        if (up == 1) {
+            res = 1 + res;
+        }
+        
+        return res;
+    }
+}
+
+
+// An approach using StringBuilder
+class Solution {
+    public String addBinary(String a, String b) {
+        
+        while (a.length() != b.length()) {
+            if (a.length() > b.length()) {
+                b = "0" + b;
+            } else {
+                a = "0" + a;
+            }
+        }
+        
+        StringBuilder res = new StringBuilder("");
+        int up = 0;
+        for (int i = a.length() - 1; i >= 0; i--) {
+            int tempRes = (int)(a.charAt(i) - '0') + (int)(b.charAt(i) - '0') + up;
+            up = tempRes / 2;
+            //res = (tempRes % 2) + res;
+            res.insert(0, tempRes % 2);
+        }
+        
+        if (up == 1) {
+            res.insert(0, 1);
+        }
+        
+        return res.toString();
+    }
+}
