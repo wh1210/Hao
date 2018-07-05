@@ -1,0 +1,20 @@
+class Solution {
+    public int uniqueMorseRepresentations(String[] words) {
+        String[] morse = new String[] {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",
+                                         "-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-",
+                                         "..-","...-",".--","-..-","-.--","--.."};
+        
+        HashSet<String> set = new HashSet<>();
+        
+        for (String str : words) {
+            StringBuilder temp = new StringBuilder();
+            for (char c : str.toCharArray()) {  
+                temp.append(morse[c - 'a']);
+            }
+            set.add(temp.toString());
+            temp.setLength(0);
+        }
+        
+        return set.size();
+    }
+}
