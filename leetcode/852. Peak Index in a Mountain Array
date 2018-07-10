@@ -1,0 +1,30 @@
+//-----------------------------------------------------------------
+// Linear scan.
+class Solution {
+    public int peakIndexInMountainArray(int[] A) {
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] > A[i + 1]) return i;
+        }
+        
+        return -1;
+    }
+}
+
+//-----------------------------------------------------------------
+// Binary Search
+class Solution {
+    public int peakIndexInMountainArray(int[] A) {
+        int low = 0;
+        int high = A.length - 1;
+        while (low < high) {
+            int middle = low + (high - low) / 2;
+            if (A[middle] < A[middle + 1]) {
+                low = middle + 1;
+            } else {
+                high = middle;
+            }
+        }
+        // it turns out the low will equal to high at last.
+        return high;
+    }
+}
