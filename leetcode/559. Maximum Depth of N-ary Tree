@@ -1,0 +1,34 @@
+/*
+// Definition for a Node.
+class Node {
+    public int val;
+    public List<Node> children;
+
+    public Node() {}
+
+    public Node(int _val,List<Node> _children) {
+        val = _val;
+        children = _children;
+    }
+};
+*/
+class Solution {
+    public int maxDepth(Node root) {
+        if (root == null) return 0;
+        return maxDepthHelper(root, 1);
+    }
+    
+    private int maxDepthHelper(Node root, int level) {
+        if (root.children.size() == 0) {
+            return level;
+        }
+        
+        int res = Integer.MIN_VALUE;
+        for (Node child : root.children) {
+            res = Math.max(res, maxDepthHelper(child, level + 1));
+        }
+        
+        return res;
+        
+    }
+}
