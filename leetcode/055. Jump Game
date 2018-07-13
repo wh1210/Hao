@@ -1,0 +1,84 @@
+//--------------------------------------------------------------------------
+// Backtracking (Time limit exceeded)
+// Backtracking
+class Solution {
+    public boolean canJump(int[] nums) {
+        return canJumpHelper(nums, 0);
+    }
+    
+    private boolean canJumpHelper(int[] nums, int position) {
+        if (position == nums.length - 1) return true;
+        
+        int farest = Math.min(position + nums[position], nums.length - 1);
+        for (int i = position + 1; i <= farest; i++) {
+            if (canJumpHelper(nums, i)) return true;
+        }
+        
+        return false;
+    }
+}
+
+
+//------------------------------------------------------------------------------
+// recuesion with memoization
+
+class Solution {
+    public boolean canJump(int[] nums) {
+        int[] memo = new int[nums.length];
+        memo[memo.length - 1] = 1;
+        return canJumpHelper(nums, memo, 0);
+    }
+    
+    private boolean canJumpHelper(int[] nums, int[] memo, int position) {
+        if (memo[position] == 1) return true;
+        if (memo[position] == -1) return false;
+        
+        int farest = Math.min(position + nums[position], nums.length - 1);
+        for (int i = position + 1; i <= farest; i++) {
+            if (canJumpHelper(nums, memo, i)) {
+                memo[position] = 1;
+                return true;
+            }
+        }
+        
+        memo[position] = -1;
+        return false;
+    }
+}
+
+//------------------------------------------------------------------------------
+// Bottom-up DP
+class Solution {
+    public boolean canJump(int[] nums) {
+        int[] memo = new int[nums.length];
+        memo[memo.length - 1] = 1;
+        int position = memo.length - 2;
+        loop:while (position >= 0) {
+            int farest = Math.min(position + nums[position], nums.length - 1);
+            for (int i = position + 1; i <= farest; i++) {
+                if (memo[i] == 1) {
+                    memo[position] = 1; 
+                    position--;
+                    continue loop;
+                }
+            }
+            memo[position] = -1;
+            position--;
+        }
+        if (memo[0] == 1) return true;
+        return false;
+    }
+}
+
+
+//-----------------------------------------------------------------
+// Greedy
+class Solution {
+    public boolean canJump(int[] nums) {
+        int lastPosition = nums.length - 1;
+        for (int i = nums.length - 2; i >= 0; i--) {
+            if (nums[i] + i >= lastPosition) lastPosition = i;
+        }
+        return lastPosition == 0;
+    }
+}
