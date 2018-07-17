@@ -1,0 +1,28 @@
+class Solution {
+    public boolean wordPattern(String pattern, String string) {
+        char[] patt = pattern.toCharArray();
+        String[] str = string.split(" ");
+        if (str.length != patt.length) return false;
+        String[] table = new String[26];
+        for (int i = 0; i < str.length; i++) {
+            if (table[patt[i] - 'a'] == null) {
+                table[patt[i] - 'a'] = str[i];
+            } else {
+                if (!str[i].equals(table[patt[i] - 'a'])) {
+                    return false;
+                }
+            }
+        }
+        HashSet<String> set = new HashSet<>();
+        for (String temp : table) {
+            if (temp != null) {
+                if (set.contains(temp)) {
+                    return false;
+                } else {
+                    set.add(temp);
+                }
+            }
+        }
+        return true;
+    }
+}
