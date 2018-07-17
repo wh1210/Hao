@@ -47,3 +47,32 @@ class Solution {
 //         return 1 + Math.max(calculateDepth(root.left), calculateDepth(root.right));        
 //     }
 // }
+
+
+//------------------------------------------------------------------------------------------
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    int ans;
+    public int diameterOfBinaryTree(TreeNode root) {
+        ans = 0;
+        if (root == null) return 0;
+        int d = depthOfTree(root, 0);
+        return ans;
+    }
+    
+    private int depthOfTree(TreeNode root, int depth) {
+        if (root == null) return 0;
+        int left = depthOfTree(root.left, depth + 1);
+        int right = depthOfTree(root.right, depth + 1);
+        ans = Math.max(ans, left + right);
+        return 1 + Math.max(left, right);
+    }
+}
