@@ -1,0 +1,18 @@
+class Solution {
+    public int countBinarySubstrings(String s) {
+        int pre = 0;
+        int cur = 0;
+        int ans = 0;
+        char[] ch = s.toCharArray();
+        for (int i = 0; i < ch.length; i++) {
+            if (i != 0 && ch[i] != ch[i - 1]) {
+                ans += Math.min(pre, cur);
+                pre = cur;
+                cur = 1;
+            } else {
+                cur++;
+            }
+        }
+        return ans + Math.min(pre, cur);
+    }
+}
