@@ -33,3 +33,63 @@ class Solution {
         }
     }
 }
+
+
+//-------------------------------------------------------------------------
+// A more tricky solution
+//https://leetcode.com/problems/path-sum-iii/discuss/91889/Simple-Java-DFS
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public int pathSum(TreeNode root, int sum) {
+        if (root == null) return 0;
+        return helper(root, sum) + pathSum(root.left, sum) + pathSum(root.right, sum);
+    }
+    
+    private int helper(TreeNode root, int sumRest) {
+        if (root == null) return 0;
+        return (root.val == sumRest ? 1 : 0) + helper(root.left, sumRest - root.val)
+            + helper(root.right, sumRest - root.val);
+    }
+}
+
+
+//---------------------------------------------------------------------
+// prefix sum solution
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
+// Prefix sum method
+class Solution {
+    public int pathSum(TreeNode root, int sum) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
+        return prefixSum(root, 0, sum, map);
+    }
+    
+    private int prefixSum(TreeNode root, int currSum, int target, HashMap<Integer, Integer> map) {
+        if (root == null) return 0;
+        currSum += root.val;
+        int res = 0;
+        res += map.getOrDefault(currSum - target, 0);
+        // Need to update the map after res +=
+        map.put(currSum, map.getOrDefault(currSum, 0) + 1);
+        res += prefixSum(root.left, currSum, target, map) + prefixSum(root.right, currSum, target, map);
+        map.put(currSum, map.get(currSum) - 1);
+        return res;
+    }
+}
