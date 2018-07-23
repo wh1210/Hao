@@ -121,3 +121,62 @@ class Solution {
 
 //------------------------------------------------------------------------------------------
 // Approach #6
+// Quicksort (descending order)
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        quickSort(nums, 0, nums.length - 1);
+        return nums[k - 1];
+    }
+    
+    private void quickSort(int[] nums, int low, int high) {
+        if (low >= high) return;
+        int left = low;
+        int pivot = nums[high];
+        for (int i = low; i < high; i++) {
+            if (nums[i] > pivot) {
+                int temp = nums[i];
+                nums[i] = nums[left];
+                nums[left] = temp;
+                left++;
+            }
+        }
+        nums[high] = nums[left];
+        nums[left] = pivot;
+
+        quickSort(nums, low, left - 1);
+        quickSort(nums, left + 1, high);
+    }
+}
+
+//-------------------------------------------------------------------------------
+// Approach #7
+// Advanced Quicksort (descending order)
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        return quickSort(nums, 0, nums.length - 1, k);
+    }
+    
+    private int quickSort(int[] nums, int low, int high, int k) {
+        if (low > high) throw new IllegalArgumentException();
+        int left = low;
+        int pivot = nums[high];
+        for (int i = low; i < high; i++) {
+            if (nums[i] > pivot) {
+                int temp = nums[i];
+                nums[i] = nums[left];
+                nums[left] = temp;
+                left++;
+            }
+        }
+        nums[high] = nums[left];
+        nums[left] = pivot;
+        
+        if (left == k - 1) {
+            return nums[left];
+        } else if (left > k - 1) {
+            return quickSort(nums, low, left - 1, k);
+        } else {
+            return quickSort(nums, left + 1, high, k);
+        }  
+    }
+}
