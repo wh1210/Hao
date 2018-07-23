@@ -1,0 +1,59 @@
+//-----------------------------------------------------------------------------
+/**
+ * Definition for an interval.
+ * public class Interval {
+ *     int start;
+ *     int end;
+ *     Interval() { start = 0; end = 0; }
+ *     Interval(int s, int e) { start = s; end = e; }
+ * }
+ */
+class Solution {
+    public int minMeetingRooms(Interval[] intervals) {
+
+        int[] time = new int[10000000];
+        for (int i = 0; i < intervals.length; i++) {
+            time[intervals[i].start]++;
+            time[intervals[i].end]--;
+        }
+        
+        int table = 0;
+        int res = 0;
+        for (int num : time) {
+            table += num;
+            res = Math.max(table, res);
+        }
+        
+        return res;
+    }
+}
+
+//-------------------------------------------------------------------------
+/**
+ * Definition for an interval.
+ * public class Interval {
+ *     int start;
+ *     int end;
+ *     Interval() { start = 0; end = 0; }
+ *     Interval(int s, int e) { start = s; end = e; }
+ * }
+ */
+class Solution {
+    public int minMeetingRooms(Interval[] intervals) {
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        
+        for (Interval interval : intervals) {
+            map.put(interval.start, map.getOrDefault(interval.start, 0) + 1);
+            map.put(interval.end, map.getOrDefault(interval.end, 0) - 1);
+        }
+        
+        int res = 0;
+        int rooms = 0;
+        for (int time : map.keySet()) {
+            rooms += map.get(time);
+            res = Math.max(res, rooms);
+        }
+        
+        return res;
+    }
+}
