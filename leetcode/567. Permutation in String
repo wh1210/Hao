@@ -1,0 +1,35 @@
+class Solution {
+    public boolean checkInclusion(String s1, String s2) {
+        if (s2.length() < s1.length()) return false;
+        
+        int[] table = new int[26];
+        for (char c : s1.toCharArray()) {
+            table[c - 'a']++;
+        }
+        
+        char[] S2 = s2.toCharArray();
+        int lo = 0, hi = 0;
+        int diff = s1.length();
+        
+        while (hi < s2.length()) {
+            if (hi < s1.length() - 1) {
+                if (table[S2[hi] - 'a'] > 0) diff--;
+                table[S2[hi] - 'a']--;
+                hi++;
+            } else {
+                
+                
+                if (table[S2[hi] - 'a'] > 0) diff--;
+                table[S2[hi] - 'a']--;
+                hi++;
+                if (diff == 0) return true;
+                if (table[S2[lo] - 'a'] >= 0) diff++;
+                table[S2[lo] - 'a']++;
+                lo++;
+            } 
+        }
+        
+        return false;
+        
+    }
+}
