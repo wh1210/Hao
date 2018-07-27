@@ -1,0 +1,26 @@
+class Solution {
+    public String[] findRelativeRanks(int[] nums) {
+        Integer[] numsInteger = new Integer[nums.length];
+        for (int i = 0; i < nums.length; i++) numsInteger[i] = i;
+        Arrays.sort(numsInteger, (n1, n2) -> nums[n2] - nums[n1]);
+        
+        String[] res = new String[numsInteger.length];
+        for (int i = 0; i < numsInteger.length; i++) {
+            if (i == 0) {
+                res[numsInteger[0]] = "Gold Medal";
+                continue;
+            }
+            if (i == 1) {
+                res[numsInteger[1]] = "Silver Medal";
+                continue;
+            }
+            if (i == 2) {
+                res[numsInteger[2]] = "Bronze Medal";
+                continue;
+            }
+            res[numsInteger[i]] = String.valueOf(i + 1);
+        }
+        
+        return res;
+    }
+}
