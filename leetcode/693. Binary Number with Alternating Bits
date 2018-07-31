@@ -1,0 +1,19 @@
+class Solution {
+    public boolean hasAlternatingBits(int n) {
+        char[] num = Integer.toBinaryString(n).toCharArray();
+        for (int i = 0; i < num.length; i++) {
+            if (i != 0 && num[i] == num[i - 1]) return false;
+        }
+        return true;
+    }
+}
+
+//--------------------------------------------------------------------------
+// Bit manipulation.
+// Bit manipulation
+class Solution {
+    public boolean hasAlternatingBits(int n) {
+        n ^= (n >> 1);
+        return (n & (n + 1)) == 0;
+    }
+}
