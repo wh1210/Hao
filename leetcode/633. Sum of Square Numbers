@@ -1,0 +1,13 @@
+class Solution {
+    public boolean judgeSquareSum(int c) {
+        HashSet<Double> set = new HashSet<>();
+        for (int i = 0; i <= c; i++) {
+            set.add(Math.pow(i, 2));
+            if (set.contains(c - Math.pow(i, 2))) {
+                return true;
+            } 
+            if (Math.pow(i, 2) >= c) return false;
+        }
+        return false;
+    }
+}
