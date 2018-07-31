@@ -1,0 +1,19 @@
+class Solution {
+    public int[] constructRectangle(int area) {
+        int tempLen = (int)Math.sqrt(area);
+        for (int len = tempLen; len <= area; len++) {
+            double width = (double)area / len;
+            if (width == (int)width && (int)width <= len) return new int[] {len, (int)width};
+        }
+        throw new IllegalArgumentException();
+    }
+}
+
+//---------------------------------------------------------------------
+class Solution {
+    public int[] constructRectangle(int area) {
+        int tempLen = (int)Math.sqrt(area);
+        while (area % tempLen != 0) tempLen--;
+        return new int[] {area / tempLen, tempLen};
+    }
+}
