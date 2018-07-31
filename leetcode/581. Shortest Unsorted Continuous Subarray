@@ -24,3 +24,33 @@ class Solution {
         return hi - lo + 1;
     }
 }
+
+//--------------------------------------------------------------------------
+// Using stack
+class Solution {
+    public int findUnsortedSubarray(int[] nums) {
+        if (nums.length == 0) return 0;
+        Stack<Integer> s = new Stack<>();
+        int lo = nums.length - 1;
+        int hi = 0;
+        s.push(0);
+        for (int i = 1; i < nums.length; i++) {
+            while (!s.isEmpty() && nums[i] < nums[s.peek()]) {
+                lo = Math.min(lo, s.pop());
+            }
+            s.push(i);
+        }
+        s.clear();
+        if (lo == nums.length - 1) return 0;
+        
+        s.push(nums.length - 1);
+        for (int i = nums.length - 2; i >= 0; i--) {
+            while (!s.isEmpty() && nums[i] > nums[s.peek()]) {
+                hi = Math.max(hi, s.pop());
+            }
+            s.push(i);
+        }
+        
+        return hi - lo + 1;
+    }
+}
