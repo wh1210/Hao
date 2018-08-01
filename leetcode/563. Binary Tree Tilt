@@ -1,0 +1,26 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public int tilt;
+    
+    public int findTilt(TreeNode root) {
+        tilt = 0;
+        tiltHelper(root);
+        return tilt;
+    }
+    
+    public int tiltHelper(TreeNode root) {
+        if (root == null) return 0;
+        int left = tiltHelper(root.left);
+        int right = tiltHelper(root.right);
+        tilt += Math.abs(left - right);
+        return left + right + root.val;
+    }
+}
