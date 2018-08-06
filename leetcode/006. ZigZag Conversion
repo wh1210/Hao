@@ -1,0 +1,22 @@
+class Solution {
+    public String convert(String s, int numRows) {
+        if (numRows == 1) return s;
+        StringBuilder res = new StringBuilder();
+        char[] S = s.toCharArray();
+        int circle = numRows + numRows - 2;
+        int times = S.length / circle + 1;
+        for (int i = 0; i < numRows; i++) {
+            if (i == 0 || i == numRows - 1) {
+                for (int j = 0; j < times; j++) {
+                    if (i + j * circle < S.length) res.append(S[i + j * circle]);
+                }
+            } else {
+                for (int j = 0; j < times; j++) {
+                    if (i + j * circle < S.length) res.append(S[i + j * circle]);
+                    if ((circle - i) + j * circle < S.length) res.append(S[(circle - i) + j * circle]);
+                }
+            }
+        }
+        return res.toString();
+    }
+}
