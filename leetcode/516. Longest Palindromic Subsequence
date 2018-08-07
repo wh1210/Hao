@@ -1,0 +1,51 @@
+//---------------------------------------------------------------------------------
+// Bottom-up DP.
+class Solution {
+    public int longestPalindromeSubseq(String s) {
+        if (s.length() == 0) return 0;
+        int[][] table = new int[s.length()][s.length()];
+        for (int i = s.length() - 1; i >= 0; i--) {
+            for (int j = i; j < s.length(); j++) {
+                if (i == j) {
+                    table[i][j] = 1;
+                    continue;
+                }
+                if (s.charAt(i) == s.charAt(j)) {
+                    table[i][j] = table[i + 1][j - 1] + 2;
+                } else {
+                    table[i][j] = Math.max(table[i][j - 1], table[i + 1][j]);
+                }
+            }
+        }
+        return table[0][s.length() - 1];
+    }
+}
+
+//------------------------------------------------------------------------------------
+// Recursion with memoization.
+class Solution {
+    public int longestPalindromeSubseq(String s) {
+        int[][] table = new int[s.length()][s.length()];
+        return helper(s, table, 0, s.length() - 1);
+    }
+    
+    private int helper(String s, int[][] table, int start, int end) {
+        if (table[start][end] != 0) {
+            return table[start][end];
+        }
+        if (start == end) {
+            table[start][end] = 1;
+            return table[start][end];
+        }
+        
+        if (start > end) return 0;
+        
+        if (s.charAt(start) == s.charAt(end)) {
+            table[start][end] = helper(s, table, start + 1, end - 1) + 2;
+        } else {
+            table[start][end] = Math.max(helper(s, table, start + 1, end), helper(s, table, start, end - 1));
+        }
+        
+        return table[start][end];
+    }
+}
