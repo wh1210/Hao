@@ -1,0 +1,41 @@
+//-----------------------------------------------------------------------
+// Using String.split();
+public class Solution {
+    public String reverseWords(String s) {
+        String[] str = s.split("[\\s]+");
+        StringBuilder sb = new StringBuilder();
+        for (int i = str.length - 1; i >= 0; i--) {
+            if (i != 0) {
+                sb.append(str[i]);
+                sb.append(" ");
+            } else {
+                sb.append(str[i]);
+            }  
+        }
+        return sb.toString().trim();
+    }
+}
+
+//------------------------------------------------------------------
+public class Solution {
+    public String reverseWords(String s) {
+        StringBuilder newS = new StringBuilder(s);
+        String ss = newS.reverse().toString();
+        StringBuilder res = new StringBuilder();
+        StringBuilder temp = new StringBuilder();
+        char[] S = ss.toCharArray();
+        for (int i = 0; i < S.length; i++) {
+            if (S[i] != ' ') {
+                temp.insert(0, S[i]);
+            } else {
+                if (temp.length() > 0) {
+                    res.append(temp.toString());
+                    res.append(" ");
+                    temp = new StringBuilder();
+                }  
+            }
+        }
+        res.append(temp.toString());
+        return res.toString().trim();
+    }
+}
