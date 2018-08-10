@@ -1,0 +1,28 @@
+class Solution {
+    public int numDistinctIslands(int[][] grid) {
+        if (grid.length == 0) return 0;
+        HashSet<List<Integer>> set = new HashSet<>();
+        boolean[][] visited = new boolean[grid.length][grid[0].length];
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (!visited[i][j] && grid[i][j] == 1) {
+                    ArrayList<Integer> list = new ArrayList<>();
+                    helper(visited, grid, i, j, 1, list);
+                    if (!list.isEmpty()) set.add(list);
+                }
+            }
+        } 
+        return set.size();
+    }
+    
+    private void helper(boolean[][] visited, int[][] grid, int i, int j, int sign, ArrayList<Integer> list) {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || visited[i][j] || grid[i][j] == 0) return;
+        visited[i][j] = true;
+        list.add(sign);
+        helper(visited, grid, i + 1, j, 1, list);
+        helper(visited, grid, i - 1, j, 2, list);
+        helper(visited, grid, i, j + 1, 3, list);
+        helper(visited, grid, i, j - 1, 4, list);
+        list.add(0);
+    }
+}
