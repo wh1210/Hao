@@ -1,0 +1,65 @@
+//---------------------------------------------------------------------------------
+// Sort the stirng
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        List<List<String>> res = new ArrayList<>();
+        HashMap<String, List<String>> map = new HashMap<>();
+        
+        for (String str : strs) {
+            char[] ch = str.toCharArray();
+            Arrays.sort(ch);
+            String s = String.valueOf(ch);
+            
+            if (map.containsKey(s)) {
+                map.get(s).add(str);
+            } else {
+                ArrayList<String> list = new ArrayList<>();
+                list.add(str);
+                map.put(s, list);
+            } 
+        }
+        
+        for (List<String> li : map.values()) {
+            res.add(li);
+        }
+        
+        return res;
+    }
+}
+
+//----------------------------------------------------------------------------------
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        List<List<String>> res = new ArrayList<>();
+        HashMap<String, List<String>> map = new HashMap<>();
+        int[] table = new int[26];
+        
+        for (String str : strs) {
+            char[] ch = str.toCharArray();
+            
+            Arrays.fill(table, 0);
+            for (char c : ch) {
+                table[c - 'a']++;
+            }
+            
+            StringBuilder sb = new StringBuilder();
+            for (int i : table) {
+                sb.append(i);
+            }
+            String s = sb.toString();
+            if (map.containsKey(s)) {
+                map.get(s).add(str);
+            } else {
+                ArrayList<String> list = new ArrayList<>();
+                list.add(str);
+                map.put(s, list);
+            } 
+        }
+        
+        for (List<String> li : map.values()) {
+            res.add(li);
+        }
+        
+        return res;
+    }
+}
