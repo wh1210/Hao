@@ -1,0 +1,41 @@
+class Solution {
+    public int myAtoi(String str) {
+        String trimedStr = str.trim();
+        char[] ch = trimedStr.toCharArray();
+        if (ch.length == 0) return 0;
+        boolean dash = false;
+        int start = 0;
+        if (ch[0] == '-') {
+            dash = true;
+            start++;
+        } else if (ch[0] == '+') {
+            start++;
+        }
+        long res = 0;
+        for (int i = start; i < ch.length; i++) {
+            if (!Character.isDigit(ch[i])) {
+                if (dash) {
+                    return (int)(res * (-1));
+                } else {
+                    return (int)res;
+                }
+            }
+            res = res * 10 + (ch[i] - '0');
+            if (dash) {
+                if (-1 * res < Integer.MIN_VALUE) {
+                    return Integer.MIN_VALUE;
+                }
+            } else {
+                if (res > Integer.MAX_VALUE) {
+                    return Integer.MAX_VALUE;
+                }
+            }
+        }
+        
+        if (dash) {
+            return (int)(res * (-1));
+        } else {
+            return (int)res;
+        }  
+    }
+}
