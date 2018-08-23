@@ -1,0 +1,57 @@
+//-----------------------------------------------------------------
+// Not good approach
+class Solution {
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        ArrayList<Integer> temp = new ArrayList<>();
+        boolean[] used = new boolean[nums.length];
+        helper(res, temp, nums, used);
+        return res;
+    }
+    
+    private void helper(List<List<Integer>> res, List<Integer> temp, int[] nums, boolean[] used) {
+        if (temp.size() == nums.length && !res.contains(temp)) {
+            res.add(new ArrayList<>(temp));
+        }
+        
+        for (int i = 0; i < nums.length; i++) {
+            if (!used[i]) {
+                temp.add(nums[i]);
+                used[i] = true;
+                helper(res, temp, nums, used);
+                used[i] = false;
+                temp.remove(temp.size() - 1);
+            }
+        }
+    }
+}
+
+//----------------------------------------------------------------------
+// Relatively better approach
+class Solution {
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        ArrayList<Integer> temp = new ArrayList<>();
+        boolean[] used = new boolean[nums.length];
+        Arrays.sort(nums);
+        helper(res, temp, nums, used);
+        return res;
+    }
+    
+    private void helper(List<List<Integer>> res, List<Integer> temp, int[] nums, boolean[] used) {
+        if (temp.size() == nums.length) {
+            res.add(new ArrayList<>(temp));
+        }
+        
+        for (int i = 0; i < nums.length; i++) {
+            if (!used[i]) {
+                if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) continue;
+                temp.add(nums[i]);
+                used[i] = true;
+                helper(res, temp, nums, used);
+                used[i] = false;
+                temp.remove(temp.size() - 1);
+            }
+        }
+    }
+}
