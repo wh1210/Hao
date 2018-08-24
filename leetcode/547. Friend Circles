@@ -1,0 +1,30 @@
+class Solution {
+    public int findCircleNum(int[][] M) {
+        int res = 0;
+        boolean[][] seen = new boolean[M.length][M.length];
+        for (int i = 0; i < M.length; i++) {
+            for (int j = 0; j < M.length; j++) {
+                if (!seen[i][j] && M[i][j] == 1) {
+                    res++;
+                    helper(M, seen, i, j);
+                }
+            }
+        }
+        return res;
+    }
+    
+    private void helper (int[][] M, boolean[][] seen, int i, int j) {
+        seen[i][j] = true;
+        for (int r = 0; r < M.length; r++) {
+            if (!seen[r][j] && M[r][j] == 1) {
+                helper(M, seen, r, j);
+            }
+        }
+        
+        for (int c = 0; c < M.length; c++) {
+            if (!seen[i][c] && M[i][c] == 1) {
+                helper(M, seen, i, c);
+            }
+        }
+    }
+}
