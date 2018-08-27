@@ -1,0 +1,39 @@
+class Solution {
+    public boolean circularArrayLoop(int[] nums) {
+        int slow = 0;
+        int fast = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) continue;
+            
+            slow = i;
+            fast = getIndex(i, nums);
+            
+            while (nums[i] * nums[fast] > 0 && nums[i] * nums[getIndex(fast, nums)] > 0) {
+                if (slow == fast) {
+                    if (fast == getIndex(slow, nums)) {
+                        break;
+                    } 
+                    return true;
+                }
+                slow = getIndex(slow, nums);
+                fast = getIndex(getIndex(fast, nums), nums);
+            }
+            
+            
+            slow = i;
+            int value = nums[i];
+            while (nums[slow] * value > 0) {
+                int next = getIndex(slow, nums);
+                nums[slow] = 0;
+                slow = next;
+            }
+        }
+        
+        return false;
+    }
+    
+    private int getIndex(int i, int[] nums) {
+        int n = nums.length;
+        return i + nums[i] >= 0 ? (i + nums[i]) % n : n + (i + nums[i]) % n;
+    }
+}
