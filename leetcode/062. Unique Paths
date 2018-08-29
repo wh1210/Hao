@@ -1,0 +1,21 @@
+class Solution {
+    public int uniquePaths(int m, int n) {
+        int[][] memo = new int[m][n];
+        memo[0][0] = 1;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (j < m && i < n && memo[j][i] != 0) {
+                    memo[i][j] = memo[j][i];
+                    continue;
+                } else {
+                    if (i > 0 && j > 0) {
+                        memo[i][j] = memo[i][j - 1] + memo[i - 1][j];
+                    } else {
+                        memo[i][j] = 1;
+                    }
+                }
+            }
+        }
+        return memo[m - 1][n - 1];
+    }
+}
