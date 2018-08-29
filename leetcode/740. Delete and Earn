@@ -1,0 +1,26 @@
+class Solution {
+    public int deleteAndEarn(int[] nums) {
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        for (int num : nums) {
+            map.put(num, map.getOrDefault(num, 0) + num);
+        }
+        
+        int curr = 0, pre = 0;
+        int currpointer = 0, prepointer = 0;
+        for (int k : map.keySet()) {
+            int temp = curr;
+            prepointer = currpointer;
+            currpointer = k;
+            if (currpointer - prepointer == 1) {
+                curr = Math.max(pre + map.get(k), curr);
+            } else {
+                curr = curr + map.get(k);
+            }
+            pre = temp;
+        }
+        
+        return curr;
+        
+        
+    }
+}
