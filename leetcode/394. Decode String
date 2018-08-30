@@ -1,0 +1,36 @@
+class Solution {
+    public String decodeString(String s) {
+        Stack<Integer> countStack = new Stack<>();
+        Stack<String> resStack = new Stack<>();
+        char[] S = s.toCharArray();
+        int count = 0;
+        int index = 0;
+        String res = "";
+        while (index < S.length) {
+            if (Character.isDigit(S[index])) {
+                resStack.push(res);
+                while (Character.isDigit(S[index])) {
+                    count = count * 10 + S[index] - '0';
+                    index++;
+                }
+                countStack.push(count);
+                count = 0;
+            } else if (S[index] == '['){
+                res = "";
+                index++;
+            } else if (S[index] == ']') {
+                StringBuilder sb = new StringBuilder(resStack.pop());
+                int times = countStack.pop();
+                for (int i = 0; i < times; i++) {
+                    sb.append(res);
+                }
+                res = sb.toString();
+                index++;
+            } else {
+                res += S[index];
+                index++;
+            }
+        }
+        return res;
+    }
+}
