@@ -1,0 +1,28 @@
+//-------------------------------------------------
+// Excellent solution
+//https://raw.githubusercontent.com/hot13399/leetcode-graphic-answer/master/42.%20Trapping%20Rain%20Water.jpg
+class Solution {
+    public int trap(int[] height) {
+        if (height.length == 0) return 0;
+        
+        int leftmax = height[0];
+        int rightmax = height[height.length - 1];
+        int left = 1;
+        int right = height.length - 2;
+        int water = 0;
+        
+        while (left <= right) {
+            if (leftmax <= rightmax) {
+                leftmax = Math.max(leftmax, height[left]);
+                water += leftmax - height[left];
+                left++;
+            } else {
+                rightmax = Math.max(rightmax, height[right]);
+                water += rightmax - height[right];
+                right--;
+            }
+        }
+        
+        return water;
+    }
+}
