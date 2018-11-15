@@ -1,4 +1,2 @@
 # Hao
-portfolio
-
-This is a portfolio for me.
+Some solutions for leetcode preblems.
