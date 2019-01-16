@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/.idea/My_Django_stuff.iml" filepath="$PROJECT_DIR$/../../Web develop/My_Django_stuff/.idea/My_Django_stuff.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
     </modules>
   </component>

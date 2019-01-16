@@ -1,7 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a58222d7-a5fb-4a5d-9842-a4e7741be88c" name="Default Changelist" comment="" />
+    <list default="true" id="a58222d7-a5fb-4a5d-9842-a4e7741be88c" name="Default Changelist" comment="s">
+      <change afterPath="$PROJECT_DIR$/leetcode/014.-Longest-Common-Prefix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/113.-Path-sum-II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/140. Word Break II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/154. Find Minimum in Rotated Sorted Array II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/179. Largest Number.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/187. Repeated DNA Sequences.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/199. Binary Tree Right Side View.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/209. Minimum Size Subarray Sum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/211. Add and Search Word - Data structure design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/213. House Robber II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/214. Shortest Palindrome.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/220. Contains Duplicate III.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/221. Maximal Square.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/222. Count Complete Tree Nodes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/224. Basic Calculator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/230. Kth Smallest Element in a BST.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/239. Sliding Window Maximum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/246. Strobogrammatic Number.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/247. Strobogrammatic Number II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/248. Strobogrammatic Number III.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/250. Count Univalue Subtrees.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/261. Graph Valid Tree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/264. Ugly Number II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/265. Paint House II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/267. Palindrome Permutation II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/269. Alien Dictionary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/272. Closest Binary Search Tree Value II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/279. Perfect Squares.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/281. Zigzag Iterator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/285. Inorder Successor in BST.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/785. Is Graph Bipartite?.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/005.-longest-palindromic-substring.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/005.-longest-palindromic-substring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/006.-zigzag-conversion.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/006.-zigzag-conversion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/007.-reverse-integer.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/007.-reverse-integer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/008.-string-to-integer-atoi.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/008.-string-to-integer-atoi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/009.-palindrome-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/009.-palindrome-number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/011.-container-with-most-water.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/011.-container-with-most-water.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/012.-integer-to-roman.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/012.-integer-to-roman.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/013.-roman-to-integer.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/013.-roman-to-integer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/015.-3sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/015.-3sum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/016.-3sum-closest.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/016.-3sum-closest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/017.-letter-combinations-of-a-phone-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/017.-letter-combinations-of-a-phone-number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/018.-4sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/018.-4sum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/019.-remove-nth-node-from-end-of-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/019.-remove-nth-node-from-end-of-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/020.-valid-parentheses.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/020.-valid-parentheses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/021.-merge-two-sorted-lists.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/021.-merge-two-sorted-lists.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/022.-generate-parentheses.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/022.-generate-parentheses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/023.-merge-k-sorted-lists.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/023.-merge-k-sorted-lists.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/024.-swap-nodes-in-pairs.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/024.-swap-nodes-in-pairs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/026-remove-duplicates-from-sorted-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/026-remove-duplicates-from-sorted-array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/027-remove-element.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/027-remove-element.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/028.-implement-strstr.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/028.-implement-strstr.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/033.-search-in-rotated-sorted-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/033.-search-in-rotated-sorted-array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/035.-search-insert-position.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/035.-search-insert-position.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/036.-valid-sudoku.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/036.-valid-sudoku.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/038.-count-and-say.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/038.-count-and-say.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/039.-combination-sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/039.-combination-sum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/040.-combination-sum-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/040.-combination-sum-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/042.-trapping-rain-water.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/042.-trapping-rain-water.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/045.-jump-game-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/045.-jump-game-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/046.-permutations.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/046.-permutations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/047.-permutations-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/047.-permutations-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/048.-rotate-image.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/048.-rotate-image.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/049.-group-anagrams.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/049.-group-anagrams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/050.-pow-x-n.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/050.-pow-x-n.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/053.-maximum-subarray.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/053.-maximum-subarray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/054.-spiral-matrix.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/054.-spiral-matrix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/055.-jump-game.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/055.-jump-game.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/056.-merge-intervals.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/056.-merge-intervals.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/058.-length-of-last-word.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/058.-length-of-last-word.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/059.-spiral-matrix-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/059.-spiral-matrix-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/062.-unique-paths.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/062.-unique-paths.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/063.-unique-paths-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/063.-unique-paths-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/064.-minimum-path-sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/064.-minimum-path-sum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/066.-plus-one.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/066.-plus-one.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/067.-add-binary.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/067.-add-binary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/069.-sqrt-x.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/069.-sqrt-x.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/070.-climbing-stairs.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/070.-climbing-stairs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/074.-search-a-2d-matrix.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/074.-search-a-2d-matrix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/075.-sort-colors.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/075.-sort-colors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/076.-minimum-window-substring.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/076.-minimum-window-substring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/077.-combinations.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/077.-combinations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/078.-subsets.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/078.-subsets.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/079.-word-search.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/079.-word-search.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/083.-remove-duplicates-from-sorted-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/083.-remove-duplicates-from-sorted-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/088.-merge-sorted-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/088.-merge-sorted-array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/090.-subsets-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/090.-subsets-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/091.-decode-ways.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/091.-decode-ways.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/092.-reverse-linked-list-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/092.-reverse-linked-list-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/094.-binary-tree-inorder-traversal.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/094.-binary-tree-inorder-traversal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/098.-validate-binary-search-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/098.-validate-binary-search-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/100.-same-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/100.-same-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/101.-symmetric-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/101.-symmetric-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/102.-binary-tree-level-order-traversal.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/102.-binary-tree-level-order-traversal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/103.-binary-tree-zigzag-level-order-traversal.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/103.-binary-tree-zigzag-level-order-traversal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/104.-maximum-depth-of-binary-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/104.-maximum-depth-of-binary-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/107.-binary-tree-level-order-traversal-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/107.-binary-tree-level-order-traversal-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/108.-convert-sorted-array-to-binary-search-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/108.-convert-sorted-array-to-binary-search-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/110.-balanced-binary-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/110.-balanced-binary-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/111.-minimum-depth-of-binary-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/111.-minimum-depth-of-binary-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/112.-path-sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/112.-path-sum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/114.-flatten-binary-tree-to-linked-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/114.-flatten-binary-tree-to-linked-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/118.-pascals-triangle.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/118.-pascals-triangle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/120.-triangle.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/120.-triangle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/121.-best-time-to-buy-and-sell-stock.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/121.-best-time-to-buy-and-sell-stock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/122.-best-time-to-buy-and-sell-stock-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/122.-best-time-to-buy-and-sell-stock-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/123.-best-time-to-buy-and-sell-stock-iii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/123.-best-time-to-buy-and-sell-stock-iii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/125.-valid-palindrome.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/125.-valid-palindrome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/127.-word-ladder.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/127.-word-ladder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/136.-single-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/136.-single-number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/137.-single-number-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/137.-single-number-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/138.-copy-list-with-random-pointer.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/138.-copy-list-with-random-pointer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/139.-word-break.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/139.-word-break.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/141.-linked-list-cycle.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/141.-linked-list-cycle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/142.-linked-list-cycle-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/142.-linked-list-cycle-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/144.-binary-tree-preorder-traversal.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/144.-binary-tree-preorder-traversal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/146.-lru-cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/146.-lru-cache.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/148.-sort-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/148.-sort-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/151.-reverse-words-in-a-string.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/151.-reverse-words-in-a-string.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/152.-maximum-product-subarray.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/152.-maximum-product-subarray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/153.-find-minimum-in-rotated-sorted-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/153.-find-minimum-in-rotated-sorted-array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/155.-min-stack.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/155.-min-stack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/159.-longest-substring-with-at-most-two-distinct-characters.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/159.-longest-substring-with-at-most-two-distinct-characters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/160.-intersection-of-two-linked-lists.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/160.-intersection-of-two-linked-lists.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/165.-compare-version-numbers.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/165.-compare-version-numbers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/167.-two-sum-ii-input-array-is-sorted.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/167.-two-sum-ii-input-array-is-sorted.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/168.-excel-sheet-column-title.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/168.-excel-sheet-column-title.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/169.-majority-element.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/169.-majority-element.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/170.-two-sum-iii-data-structure-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/170.-two-sum-iii-data-structure-design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/171.-excel-sheet-column-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/171.-excel-sheet-column-number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/172.-factorial-trailing-zeroes.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/172.-factorial-trailing-zeroes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/173.-binary-search-tree-iterator.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/173.-binary-search-tree-iterator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/186.-reverse-words-in-a-string-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/186.-reverse-words-in-a-string-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/188.-best-time-to-buy-and-sell-stock-iv.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/188.-best-time-to-buy-and-sell-stock-iv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/189.-rotate-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/189.-rotate-array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/190.-reverse-bits.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/190.-reverse-bits.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/191.-number-of-1-bits.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/191.-number-of-1-bits.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/198.-house-robber.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/198.-house-robber.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/200.-number-of-islands.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/200.-number-of-islands.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/202.-happy-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/202.-happy-number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/203.-remove-linked-list-elements.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/203.-remove-linked-list-elements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/204.-count-primes.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/204.-count-primes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/205.-isomorphic-strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/205.-isomorphic-strings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/206.-reverse-linked-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/206.-reverse-linked-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/207.-course-schedule.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/207.-course-schedule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/208.-implement-trie-prefix-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/208.-implement-trie-prefix-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/210.-course-schedule-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/210.-course-schedule-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/212.-word-search-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/212.-word-search-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/215.-kth-largest-element-in-an-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/215.-kth-largest-element-in-an-array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/216.-combination-sum-iii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/216.-combination-sum-iii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/217.-contains-duplicate.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/217.-contains-duplicate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/219.-contains-duplicate-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/219.-contains-duplicate-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/225.-implement-stack-using-queues.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/225.-implement-stack-using-queues.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/226.-invert-binary-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/226.-invert-binary-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/227.-basic-calculator-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/227.-basic-calculator-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/229.-majority-element-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/229.-majority-element-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/231.-power-of-two.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/231.-power-of-two.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/232.-implement-queue-using-stacks.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/232.-implement-queue-using-stacks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/234.-palindrome-linked-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/234.-palindrome-linked-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/235.-lowest-common-ancestor-of-a-binary-search-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/235.-lowest-common-ancestor-of-a-binary-search-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/236.-lowest-common-ancestor-of-a-binary-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/236.-lowest-common-ancestor-of-a-binary-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/237.-delete-node-in-a-linked-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/237.-delete-node-in-a-linked-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/238.-product-of-array-except-self.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/238.-product-of-array-except-self.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/240.-search-a-2d-matrix-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/240.-search-a-2d-matrix-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/242.-valid-anagram.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/242.-valid-anagram.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/243.-shortest-word-distance.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/243.-shortest-word-distance.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/244.-shortest-word-distance-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/244.-shortest-word-distance-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/245.-shortest-word-distance-iii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/245.-shortest-word-distance-iii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/249.-group-shifted-strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/249.-group-shifted-strings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/251.-flatten-2d-vector.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/251.-flatten-2d-vector.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/252.-meeting-rooms.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/252.-meeting-rooms.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/253.-meeting-rooms-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/253.-meeting-rooms-ii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/256.-paint-house.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/256.-paint-house.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/257.-binary-tree-paths.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/257.-binary-tree-paths.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/258.-add-digits.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/258.-add-digits.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/259.-3sum-smaller.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/259.-3sum-smaller.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/260.-single-number-iii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/260.-single-number-iii.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/263.-ugly-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/263.-ugly-number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/266.-palindrome-permutation.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/266.-palindrome-permutation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/268.-missing-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/268.-missing-number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/270.-closest-binary-search-tree-value.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/270.-closest-binary-search-tree-value.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/273.-integer-to-english-words.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/273.-integer-to-english-words.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/276.-paint-fence.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/276.-paint-fence.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/277.-find-the-celebrity.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/277.-find-the-celebrity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/278.-first-bad-version.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/278.-first-bad-version.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/280.-wiggle-sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/280.-wiggle-sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/283.-move-zeroes.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/283.-move-zeroes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/454.-4sum-ii.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/454.-4sum-ii.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,71 +205,61 @@
     <session id="-1716983673">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="5" />
+          <entry key="css" value="2" />
+          <entry key="html" value="17" />
+          <entry key="md" value="222" />
           <entry key="project" value="1" />
+          <entry key="py" value="44" />
+          <entry key="sqlite3" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="17" />
+          <entry key="Markdown" value="220" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="226" />
+          <entry key="css" value="95" />
+          <entry key="html" value="925" />
+          <entry key="md" value="4288" />
+          <entry key="py" value="3924" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="226" />
+          <entry key="CSS" value="95" />
+          <entry key="HTML" value="925" />
+          <entry key="Markdown" value="4281" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="3924" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/001.-two-sum.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="342">
-                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SUMMARY.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/003.-longest-substring-without-repeating-characters.md">
+        <entry file="file://$PROJECT_DIR$/leetcode/785. Is Graph Bipartite?.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="627">
-                <caret line="33" column="7" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="7" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,30 +267,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/004.-median-of-two-sorted-arrays.md">
+        <entry file="file://$PROJECT_DIR$/leetcode/784.-letter-case-permutation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/002.-add-two-numbers.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="399">
-                <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -121,11 +297,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/002.-add-two-numbers.md" />
-        <option value="$PROJECT_DIR$/leetcode/003.-longest-substring-without-repeating-characters.md" />
-        <option value="$PROJECT_DIR$/leetcode/004.-median-of-two-sorted-arrays.md" />
-        <option value="$PROJECT_DIR$/leetcode/001.-two-sum.md" />
-        <option value="$PROJECT_DIR$/SUMMARY.md" />
+        <option value="$PROJECT_DIR$/leetcode/256.-paint-house.md" />
+        <option value="$PROJECT_DIR$/leetcode/257.-binary-tree-paths.md" />
+        <option value="$PROJECT_DIR$/leetcode/258.-add-digits.md" />
+        <option value="$PROJECT_DIR$/leetcode/259.-3sum-smaller.md" />
+        <option value="$PROJECT_DIR$/leetcode/260.-single-number-iii.md" />
+        <option value="$PROJECT_DIR$/leetcode/248. Strobogrammatic Number III.md" />
+        <option value="$PROJECT_DIR$/leetcode/261. Graph Valid Tree.md" />
+        <option value="$PROJECT_DIR$/leetcode/263.-ugly-number.md" />
+        <option value="$PROJECT_DIR$/leetcode/264. Ugly Number II.md" />
+        <option value="$PROJECT_DIR$/leetcode/265. Paint House II.md" />
+        <option value="$PROJECT_DIR$/leetcode/266.-palindrome-permutation.md" />
+        <option value="$PROJECT_DIR$/leetcode/267. Palindrome Permutation II.md" />
+        <option value="$PROJECT_DIR$/leetcode/268.-missing-number.md" />
+        <option value="$PROJECT_DIR$/leetcode/269. Alien Dictionary.md" />
+        <option value="$PROJECT_DIR$/leetcode/270.-closest-binary-search-tree-value.md" />
+        <option value="$PROJECT_DIR$/leetcode/272. Closest Binary Search Tree Value II.md" />
+        <option value="$PROJECT_DIR$/leetcode/273.-integer-to-english-words.md" />
+        <option value="$PROJECT_DIR$/leetcode/276.-paint-fence.md" />
+        <option value="$PROJECT_DIR$/leetcode/277.-find-the-celebrity.md" />
+        <option value="$PROJECT_DIR$/leetcode/278.-first-bad-version.md" />
+        <option value="$PROJECT_DIR$/leetcode/279. Perfect Squares.md" />
+        <option value="$PROJECT_DIR$/leetcode/280.-wiggle-sort.md" />
+        <option value="$PROJECT_DIR$/leetcode/281. Zigzag Iterator.md" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/urls.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_project/urls.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/templates/index.html" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/ProTwo/settings.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/templates/index.html" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/appTwo/views.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/appTwo/urls.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/ProTwo/urls.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_project/settings.py" />
+        <option value="$PROJECT_DIR$/leetcode/283.-move-zeroes.md" />
+        <option value="$PROJECT_DIR$/leetcode/285. Inorder Successor in BST.md" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/models.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/admin.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/populate_first_app.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/templates/first_app/index.html" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/views.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/static/css/mystyle.css" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/templates/appTwo/users.html" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/templates/appTwo/index.html" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/admin.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/projectTwo/settings.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/models.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/views.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/urls.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/projectTwo/urls.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/populate_users.py" />
+        <option value="$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/templates/appTwo/users.html" />
+        <option value="$PROJECT_DIR$/leetcode/785. Is Graph Bipartite?.md" />
       </list>
     </option>
   </component>
@@ -138,7 +360,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,14 +372,26 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/templates/appTwo" />
+      <recent name="$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/templates/first_app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,13 +422,9 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14707655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16395418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29387754" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -203,6 +432,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -212,54 +445,446 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/002.-add-two-numbers.md">
+    <entry file="file://$PROJECT_DIR$/leetcode/267. Palindrome Permutation II.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/001.-two-sum.md">
+    <entry file="file://$PROJECT_DIR$/leetcode/268.-missing-number.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
+    <entry file="file://$PROJECT_DIR$/leetcode/269. Alien Dictionary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <first_editor relative-caret-position="532">
+            <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/004.-median-of-two-sorted-arrays.md">
+    <entry file="file://$PROJECT_DIR$/leetcode/281. Zigzag Iterator.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="532">
+            <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/280.-wiggle-sort.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="655">
+            <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/261. Graph Valid Tree.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="532">
+            <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/279. Perfect Squares.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/278.-first-bad-version.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="760">
+            <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/277.-find-the-celebrity.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/276.-paint-fence.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/273.-integer-to-english-words.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="646">
+            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/270.-closest-binary-search-tree-value.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="456">
-            <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/003.-longest-substring-without-repeating-characters.md">
+    <entry file="file://$PROJECT_DIR$/leetcode/272. Closest Binary Search Tree Value II.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="627">
-            <caret line="33" column="7" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="7" />
+          <first_editor relative-caret-position="665">
+            <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_project/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#229#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_project/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/ProTwo/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/appTwo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1547338176209" expanded="true" signature="119:124" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/ProTwo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/appTwo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/ProTwo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="121" column="23" lean-forward="true" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/283.-move-zeroes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/094.-binary-tree-inorder-traversal.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="495">
+            <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/285. Inorder Successor in BST.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="386">
+            <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/populate_first_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding>
+            <marker date="1547424962879" expanded="true" signature="307:312" ph="..." />
+            <marker date="1547424962879" expanded="true" signature="424:429" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/static/css/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/templates/appTwo/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/ProTwo/templates/appTwo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1547423217535" expanded="true" signature="83:88" ph="..." />
+            <marker date="1547423217535" expanded="true" signature="227:232" ph="..." />
+            <marker date="1547423217535" expanded="true" signature="470:475" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/templates/first_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1547445590992" expanded="true" signature="114:119" ph="..." />
+            <marker date="1547445590992" expanded="true" signature="274:278" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/projectTwo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/templates/appTwo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/templates/appTwo/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/populate_users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <marker date="1547446818780" expanded="true" signature="205:210" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/projectTwo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/first_project/first_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web develop/My_Django_stuff/projectTwo/projectTwo/appTwo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1547445457552" expanded="true" signature="83:240" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/784.-letter-case-permutation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/785. Is Graph Bipartite?.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
